@@ -1,0 +1,26 @@
+[project]
+name = "djangoProject"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = "dsowinski2@gmailcom"},
+]
+dependencies = [
+    "django>=5.0.3",
+    "djangorestframework>=3.15.1",
+    "environ>=1.0",
+    "django-environ>=0.11.2",
+    "psycopg2>=2.9.9",
+    "pytest>=8.1.1",
+    "pytest-django>=4.8.0",
+    "pytest-factoryboy>=2.7.0",
+    "pytest-mock>=3.14.0",
+    "pre-commit>=3.7.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
