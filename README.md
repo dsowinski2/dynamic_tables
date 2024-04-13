@@ -8,7 +8,7 @@
 
 ```bash
 git clone https://github.com/dsowinski2/dynamic_tables
-cd projects-api
+cd dynamic_tables
 cp .env.example .env
 ```
 Set Postgres credential for both default and test database
